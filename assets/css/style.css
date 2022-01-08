@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #b3c4c7;
+    --secondary-color: #a2a395;
+    --tertiary-color: #164b6b;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--tertiary-color);
+}
+
+/*HEADER STYLES */
+header {
+    background-size: cover;
+}
+
+header h1 {
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+header nav {
+    margin: 7px 0;
+    font-size: 16px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: var(--secondary-color);
+}
+
+
+/* HERO STYLES */
+.hero {
+    background-image: url("../images/hero-bg.png");
+    background-position: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 60px;
+
+}
+
+.hero-quote {
+    color:whitesmoke;
+    font-size: 20px;
+}
+
+/* About Me */
+
+.section-title {
+    font-size: 25px;
+    color: var(--primary-color);
+    border-right: 5px solid;
+    width: 25%;
+    text-align: right;
+    padding: 100px 0 50px 0;
+
+
+}
+
+.about-me {
+    /* margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%; */
+    padding: 0 100px 20px 100px;
+    
+}
+
+.about-me p {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+/* My Work */
+
+.my-work {
+    margin: 50px 0;
+    padding-bottom: 50px;
+    width: 80%
+}
+
+.applications img {
+    width: 50%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.primary-border {
+    color: var(--tertiary-color);
+}
