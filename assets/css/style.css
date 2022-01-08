@@ -68,25 +68,22 @@ header nav ul{
 /* About Me */
 
 .section-title {
-    font-size: 25px;
-    color: var(--primary-color);
-    border-right: 5px solid;
-    width: 25%;
-    text-align: right;
-    padding: 100px 0 50px 0;
-
-
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--tertiary-color);
 }
 
 .about-me {
-    /* margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%; */
-    padding: 0 100px 20px 100px;
-    
+    padding: 60px;
 }
 
-.about-me p {
+
+.my-bio {
     line-height: 1.7;
     color: var(--secondary-color);
     width: 80%;
@@ -98,19 +95,39 @@ header nav ul{
 
 /* My Work */
 
-.my-work {
-    margin: 50px 0;
+.work {
+    padding: 60px;
+}
+
+/* .work-apps {
+    margin: 50px auto;
     padding-bottom: 50px;
-    width: 80%
-}
-
-.applications img {
-    width: 50%;
-}
-
-.flex-row {
+    width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.work-links {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
 }
+.run-buddy {
+    /* width: 50%;
+    position: absolute;
+    padding-right: 100px; */
+    /* flex: 1 20%; */
+    /* margin-right: 20px; */
+    max-width: 100%;
+    height: auto;
+    border: 5px solid var(--tertiary-color);
+    position: absolute;
+}
+
 
 .primary-border {
     color: var(--tertiary-color);
