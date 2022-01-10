@@ -111,24 +111,57 @@ header nav ul{
 
 .work-links {
     margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    font-size: 20px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .run-buddy {
     /* width: 50%;
-    position: absolute;
     padding-right: 100px; */
-    /* flex: 1 20%; */
     /* margin-right: 20px; */
     max-width: 100%;
     height: auto;
     border: 5px solid var(--tertiary-color);
-    position: absolute;
 }
 
+.links {
 
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 20px;
+    position: relative;
+
+}
+
+.links img {
+    position: relative;
+    margin: 20px 20px;
+}
+
+/* Footer */
+
+footer {
+    background-size: cover;
+}
+footer a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+footer nav {
+    margin: 7px 0;
+    font-size: 16px;
+}
+
+footer nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: left;
+    list-style: none;
+    text-align: left;
+    color: var(--secondary-color);
+}
 
 
 .primary-border {
