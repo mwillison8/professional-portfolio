@@ -159,7 +159,6 @@ footer nav ul{
     justify-content: space-around;
     align-items: left;
     list-style: none;
-    text-align: left;
     color: var(--secondary-color);
 }
 
